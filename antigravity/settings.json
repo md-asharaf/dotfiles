@@ -1,0 +1,167 @@
+{
+  "files.autoSaveDelay": 100,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.autoRepositoryDetection": false,
+  "git.openRepositoryInParentFolders": "never",
+  "git.suggestSmartCommit": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": true,
+  "editor.wordWrap": "on",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.tabWidth": 4,
+  "files.associations": {
+    "*.css": "tailwindcss",
+    ".env*": "dotenv",
+    "*.ts": "typescript"
+  },
+  "problems.showCurrentInStatus": true,
+  "notebook.output.fontSize": 12,
+  "debug.console.fontSize": 12,
+  "scm.inputFontSize": 14,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.showTabs": "single",
+  "editor.fontWeight": "300",
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font Mono'",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "terminal.integrated.fontSize": 13,
+  "editor.defaultFormatter": "google.antigravity",
+  "explorer.confirmPasteNative": false,
+  "files.autoSave": "onFocusChange",
+  "extensions.ignoreRecommendations": true,
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "explorer.compactFolders": false,
+  "editor.lineNumbers": "on",
+  "window.customTitleBarVisibility": "auto",
+  "editor.tokenColorCustomizations": {
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    },
+    "textMateRules": [
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.single.ini,constant.numeric.ini,string.quoted.double.ini",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      }
+    ]
+  },
+  "editor.mouseWheelZoom": false,
+  "window.zoomPerWindow": false,
+  "terminal.integrated.cursorStyleInactive": "underline",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "terminal.explorerKind": "both",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.ts": "default",
+    "*.pdf": "default"
+  },
+  "breadcrumbs.enabled": false,
+  "window.newWindowProfile": "Default",
+  "diffEditor.codeLens": true,
+  "workbench.editor.enablePreview": false,
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "workbench.experimental.share.enabled": true,
+  "json.schemaDownload.enable": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.startupEditor": "welcomePage",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "editor.minimap.enabled": false,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "google.antigravity"
+  },
+  "editor.accessibilitySupport": "off",
+  "chat.editing.confirmEditRequestRemoval": false,
+  "chat.agent.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "icons-carbon",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "window.zoomLevel": 0.65,
+  "python.languageServer": "Default",
+  "workbench.colorTheme": "Monokai Pro"
+}

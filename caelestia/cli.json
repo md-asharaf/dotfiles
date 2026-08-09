@@ -1,0 +1,81 @@
+{
+  "toggles": {
+    "scratch-terminal": {
+      "terminal": {
+        "enable": true,
+        "match": [
+          {
+            "class": "com.mitchellh.ghostty"
+          }
+        ],
+        "command": ["ghostty"],
+        "move": true
+      }
+    },
+
+    "scratch-chrome": {
+      "chrome": {
+        "enable": true,
+        "match": [
+          {
+            "class": "google-chrome"
+          }
+        ],
+        "command": ["google-chrome-stable"],
+        "move": true
+      }
+    },
+
+    "scratch-discord": {
+      "discord": {
+        "enable": true,
+        "match": [
+          {
+            "class": "vesktop"
+          }
+        ],
+        "command": ["vesktop"],
+        "move": true
+      }
+    },
+
+    "scratch-whatsapp": {
+      "whatsapp": {
+        "enable": true,
+        "match": [
+          {
+            "class": "WhatsApp Desktop"
+          }
+        ],
+        "command": ["whatsapp-linux-desktop"],
+        "move": true
+      }
+    },
+
+    "scratch-telegram": {
+      "telegram": {
+        "enable": true,
+        "match": [
+          {
+            "class": "org.telegram.desktop"
+          }
+        ],
+        "command": ["Telegram"],
+        "move": true
+      }
+    },
+
+    "scratch-spotify": {
+      "spotify": {
+        "enable": true,
+        "match": [
+          {
+            "class": "spotify"
+          }
+        ],
+        "command": ["spotify"],
+        "move": true
+      }
+    }
+  }
+}

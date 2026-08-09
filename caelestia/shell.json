@@ -1,0 +1,46 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": false
+        }
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": true,
+            "inverted": true,
+            "showOnHover": true
+        },
+        "clock": {
+            "background": false,
+            "showDate": false,
+            "showIcon": true
+        },
+        "persistent": true,
+        "status": {
+            "showBattery": true,
+            "showBluetooth": true,
+            "showLockStatus": false,
+            "showNetwork": true,
+            "showWifi": true
+        },
+        "workspaces": {
+            "activeTrail": false,
+            "showWindows": true,
+            "shown": 10
+        }
+    },
+    "dashboard": {
+        "enabled": true
+    },
+    "general": {
+        "apps": {
+            "terminal": [
+                "/usr/bin/ghostty",
+                "--gtk-single-instance=true"
+            ]
+        }
+    },
+    "services": {
+        "useFahrenheit": false
+    }
+}

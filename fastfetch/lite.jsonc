@@ -1,0 +1,81 @@
+{
+    "logo": {
+        "source": "arch",
+        // PNG requires imagemagick (sudo pacman -Syu imagemagick)
+        "padding": {
+            "top": 2,
+            "right": 6
+        }
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+	"break",
+	"break",
+	{
+        "type": "title",
+        "keyWidth": 10
+    },
+    "break",
+    {
+        "type": "os",
+        "format": "{pretty-name} \u001b[36m(Arch btw :3)\u001b[0m",
+        "key": " "
+    },
+	{
+	    "type": "chassis",
+	    "key": "󰌢 "
+	},
+    {
+        "type": "shell",
+        "key": " "
+    },
+    {
+        "type": "terminal",
+        "key": " " 
+    },
+    {
+        "type": "wm",
+        "key": " "
+    },
+	{
+        "type": "cpu",
+	    "temp": true,
+	    "key": "󰍛 "
+	},
+	{
+	    "type": "gpu",
+	    "temp": true,
+	    "key": "󰢮 "
+	},
+	{
+	    "type": "memory",
+	    "key": " ",
+	    "percent": {
+        	"type": 3,
+        	"green": 30,
+        	"yellow": 70
+        }
+	},
+	{
+	    "type": "battery",
+	    "key": " "
+	},
+    {
+        "type": "uptime",
+        "key": " "
+    },
+    "break",
+	{
+	    "type": "media",
+	    "format": "{combined} | {artist} ({progress-num})",
+	    "key": "󰝚 ",
+	    "keyColor": "red"
+	},
+	"break",
+        "colors",
+        "break",
+	"break"
+    ]
+}

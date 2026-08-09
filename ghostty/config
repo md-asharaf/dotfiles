@@ -1,7 +1,11 @@
 # Font settings
 font-family = "JetBrainsMono Nerd Font Mono"
-font-size = 11
-theme = Monokai Pro
+font-size = 13
+#theme = Vercel
+#theme = Spiderman
+theme = Monokai Soda
+#theme = IBM 5153 CGA 
+#theme = Hopscotch
 # Padding settings
 window-padding-x = 15
 window-padding-y = 15
@@ -20,3 +24,5 @@ app-notifications = false
 # quick-terminal-screen = main
 # keybind = super+b=toggle_quick_terminal
 shell-integration = zsh
+command = ~/.local/bin/zsh-fastfetch
+gtk-titlebar = false
